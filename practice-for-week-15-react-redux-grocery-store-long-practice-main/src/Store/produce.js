@@ -10,6 +10,7 @@ export default function produceReducer(state = {}, action) {
         newState[produce.id] = produce;
       });
       return newState;
+
     default: 
     return state;
   }
